@@ -1,0 +1,5 @@
+
+When studying the velocity field of an ideal incompressible fluid around an obstacle, we pay special attention to symmetric configurations (sphere, cylinder, etc.).
+Although finding direct elementary solutions is not simple, by analogy with magnetostatics and electrostatics, we can obtain equivalent formal solutions. 
+Through this analogy, the fluid problem can be fully analyzed mathematically, and the method can be extended to a large class of physical phenomena described by Laplace's equation.
+
