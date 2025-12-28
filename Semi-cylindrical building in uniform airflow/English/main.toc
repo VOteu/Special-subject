@@ -1,4 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {section}{\numberline {2}Long superconducting cylinder}{4}{section.2}%
-\contentsline {section}{\numberline {3}Velocity superposition}{5}{section.3}%
-\contentsline {section}{\numberline {4}Laplace's equation}{6}{section.4}%
+\contentsline {subsection}{\numberline {2.1}The equivalent model}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Quantitative calculation}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Velocity superposition}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Electrostatic analogy}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Two-dimensional sources and sinks}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Hydrodynamic dipole}{10}{subsection.3.3}%
+\contentsline {paragraph}{Remarks.}{11}{paragraph*.10}%
+\contentsline {subsection}{\numberline {3.4}Flow around a cylindrical obstacle}{12}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Laplace's equation}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The big picture}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}General solution in cylindrical coordinates}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}A revision}{15}{subsection.4.3}%

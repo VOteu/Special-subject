@@ -27,7 +27,7 @@
 \setlength{\parindent}{0cm}
 \usepackage{ mathrsfs}
 \usepackage{longtable}
-\usepackage[unicode]{hyperref}
+
 \usepackage{chngcntr}
 \usepackage{caption}
 % \captionsetup[figure]{labelsep=space,labelformat=arabicperiod,
@@ -45,14 +45,16 @@
 	citecolor=blue % Màu cho các tham chiếu trong văn bản
 }
 \numberwithin{equation}{section}
-\renewcommand{\thefigure}{Hình \arabic{figure}}
+\renewcommand{\figurename}{Figure}
 \usepackage{fancyhdr}
 \usepackage{float}
 \usepackage{fontawesome5}
 \usepackage{subcaption}
 \usepackage{footmisc}
 \usepackage{biblatex}
-\addbibresource{ref.bib}
+
+
+\addbibresource{myrefs.bib}
 
 \title{Semi-cylindrical obstacle in uniform airflow}
 \author{Vo Anh Tue}
@@ -79,9 +81,11 @@ Through this analogy, the fluid problem can be fully analyzed mathematically, an
 \input{Introduction.tex}\label{I}
 \newpage
 \section{Long superconducting cylinder}\label{II}
+\input{Long_superconducting_cylinder.tex}
 \newpage
 \section{Velocity superposition}\label{III}
+\input{Vec_superposition.tex}
 \newpage
 \section{Laplace's equation}\label{IV}
-
+\input{Laplace.tex}
 \end{document}

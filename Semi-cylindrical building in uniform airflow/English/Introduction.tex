@@ -8,13 +8,13 @@
 Consider a building in the shape of a semi-cylinder of length $L$ and radius $R$, resting on an infinite flat ground, such that the length is very large compared with the radius (See \ref{F2}). From infinity, a stream of wind blows toward it with velocity $\mathbf{v}_0$. Determine the wind velocity at every point in space once the flow has reached a steady state.
 \end{tcolorbox}
 The crucial assumptions are that the airflow is incompressible and irrotational (with a very small vicosity coefficient). This means that the velocity field $\mathbf{v}$ satisfies the following equations, in region of $y\geq 0$: \begin{align}
-    &\nabla\cdot\mathbf v = 0, \label{eq1}\\
-    &\nabla\times\mathbf v= 0. \label{eq2}
+    &\nabla\cdot\mathbf v = \mathbf 0, \label{eq1}\\
+    &\nabla\times\mathbf v=\mathbf 0. \label{eq2}
 \end{align} And the boundary conditions are: \begin{align}
     &\left\{
     \begin{array}{ll}
-        \displaystyle \lim_{r \to \infty} \vec{v}(r, \theta) = \vec{v}_0, \\[12pt] 
-        \vec{v}(R, \theta)\cdot\hat{r} = 0.
+        \displaystyle \lim_{r \to \infty} \mathbf{v}(r, \theta) = \mathbf{v}_0, \\[12pt] 
+        \mathbf{v}(R, \theta)\cdot\hat{r} = \mathbf 0.
     \end{array}
     \right.\label{eq3}
 \end{align}
@@ -24,9 +24,9 @@ In the general case, equation~\eqref{eq2} takes the form
 \]
 and one readily observes the analogy between the two Maxwell equations\footnote{
 \begin{align*}
-\nabla \cdot \mathbf{B} &= 0,\\
+\nabla \cdot \mathbf{B} &=\mathbf 0,\\
 \nabla \times \mathbf{B} &= \mu_0 \mathbf{j}.
 \end{align*}}
-in electrostatics and the two partial differential equations describing an ideal fluid flow.
+in magnetostatics and the two partial differential equations describing an ideal fluid flow.
 
-Therefore, we shall first examine the analogous electrostatic problem using a simplified model presented in Section~\ref{II}. We then return to the fluid-mechanics problem by systematically translating the corresponding concepts developed in electrostatics in Section~\ref{III}. Finally, we conclude by solving the Laplace equations to verify the accuracy of the simplified models employed, while at the same time providing the most general comparison possible.
+Therefore, we shall first examine the analogous magnetostatic problem using a simplified model presented in Section~\ref{II}. We then return to the fluid-mechanics via the corresponding concepts developed in electrostatics in Section~\ref{III}. Finally, we conclude by solving the Laplace equations to verify the accuracy of the simplified models employed, while at the same time providing the most general estimation possible.

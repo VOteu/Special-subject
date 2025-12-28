@@ -346,6 +346,14 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.s
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
@@ -387,14 +395,6 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\reru
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\chngcntr\chngcntr.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\chngcntr\chngcntr.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
-INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
@@ -470,6 +470,11 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\englis
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT main.bcf
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -517,17 +522,6 @@ INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT main.toc
-INPUT .\Introduction.tex
-INPUT .\Introduction.tex
-INPUT Introduction.tex
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
-INPUT .\Image\problem.png
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -539,19 +533,108 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\admin\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\admin\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
 INPUT C:\Users\admin\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+OUTPUT main.toc
+INPUT .\Introduction.tex
+INPUT .\Introduction.tex
+INPUT Introduction.tex
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
+INPUT .\Image\problem.png
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT .\Long_superconducting_cylinder.tex
+INPUT .\Long_superconducting_cylinder.tex
+INPUT Long_superconducting_cylinder.tex
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\4fieldphysic.jpg
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_17.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_18.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT .\Image\screenshot_19.png
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Image\screenshot_20.png
+INPUT .\Vec_superposition.tex
+INPUT .\Vec_superposition.tex
+INPUT Vec_superposition.tex
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc thuy dong luc.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\luong cuc dien.jpg
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT .\Image\screenshot_1766923724.png
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT .\Laplace.tex
+INPUT .\Laplace.tex
+INPUT Laplace.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT C:\Users\admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
@@ -564,6 +647,8 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
@@ -584,3 +669,5 @@ INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

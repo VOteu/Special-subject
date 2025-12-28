@@ -1,0 +1,244 @@
+The superposition principle, inspired by the correspondence principle in electromagnetism, allows us to decompose a complex problem into simpler ones and thereby construct a complicated field from more elementary models.
+
+The analogous linearity of the differential equations governing fluid flow enables us to proceed in exactly the same manner.
+
+In this framework, for each distinct flow characterized by velocity fields $\mathbf{v}_0, \mathbf{v}_1, \mathbf{v}_2, \ldots$, the flow satisfying the complete problem is described by the velocity field
+\begin{empheq}[box=\fbox]{align}
+    \mathbf{v} = \mathbf{v}_0 + \mathbf{v}_1 + \mathbf{v}_2 + \ldots.
+\end{empheq}
+
+We shall now examine several fields that are directly related to the problem at hand, namely incompressible and irrotational (potential) flows.
+
+\subsection{Electrostatic analogy}
+Equation~\ref{eq1} asserts that there exists a scalar quantity $\phi$ associated with the velocity field such that
+\[
+\mathbf{v} = \nabla \phi,
+\]
+since
+\[
+\nabla \times \bigl(\nabla f(x,y,z)\bigr) = \mathbf{0}
+\]
+for any scalar function $f(x,y,z)$. \newline
+
+The scalar $\phi$ is therefore called the \emph{velocity potential}. Moreover, equation~\ref{eq2} implies that
+\[
+\nabla \cdot \bigl(\nabla \phi\bigr) = 0,
+\]
+or equivalently,
+\begin{align}
+\nabla^2 \phi = 0.
+\label{eq55}
+\end{align}
+
+We now present a comparison table:
+\vspace{5mm}
+
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{5.5cm}|>{\centering\arraybackslash}m{5.5cm}|}
+    \hline
+    \textbf{Electrostatic field in a charge-free region} &
+    \textbf{Velocity field of a fluid in potential flow} \\
+    \hline
+    $\nabla \times \mathbf{E} = \mathbf{0}$, hence there exists a scalar potential $V$ such that
+    $\mathbf{E} = -\nabla V$. &
+    $\nabla \times \mathbf{v} = \mathbf{0}$, hence there exists a scalar potential $\phi$ such that
+    $\mathbf{v} = \nabla \phi$. \\
+    \hline
+    $\mathbf{E}$ is orthogonal to the surfaces $V = \mathrm{const}$. &
+    $\mathbf{v}$ is orthogonal to the surfaces $\phi = \mathrm{const}$. \\
+    \hline
+    $\nabla \cdot \mathbf{E} = 0$, or equivalently $\nabla^2 V = 0$. &
+    $\nabla \cdot \mathbf{v} = 0$, or equivalently $\nabla^2 \phi = 0$. \\
+    \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Two-dimensional sources and sinks}
+Consider an infinitely long straight line charge, uniformly charged with linear charge density $\lambda$.  
+The cylindrical symmetry of the problem implies an electric field of the form
+\[
+\mathbf{E} = E(r)\,\hat{r}.
+\]
+
+This field is defined everywhere in space except on the wire itself. In this region there is no charge, and therefore
+\[
+\nabla \cdot \mathbf{E} = 0.
+\]
+Applying Gauss’s law to a cylindrical surface of radius $r$ and height $h$, we obtain
+\begin{align}
+    \Phi
+    = \iint_{\mathbf{S}} \mathbf{E} \cdot \hat{n}\, dS
+    = \frac{\lambda h}{\varepsilon_0}
+    = \iiint_{\mathbf{V}} \nabla \cdot \mathbf{E}\, dV
+    \neq 0 .
+\end{align}
+
+This apparent contradiction arises because the field is not defined at $r=0$. This property may be described by the Dirac delta distribution $\delta^3(\mathbf{r})$, although it is unnecessary to invoke it here, since we are only concerned with the field in space, where it is well defined and given by
+\[
+E(r) = \frac{\lambda}{2\pi \varepsilon_0 r}.
+\]
+
+Let us now examine a potential flow of a fluid with analogous dynamics, namely a velocity field of the form
+\[
+\mathbf{v} = \frac{k}{r}\,\hat{r}.
+\]
+
+The fluid velocity vanishes at infinity relative to the $(Oz)$ axis, and the flux of the field is conserved through any cylindrical surface of height $h$ and radius $r$:
+\begin{align}
+    \Phi = 2\pi r h\, v(r) = 2\pi h k.
+\end{align}
+
+This nonzero flux contradicts $\nabla \cdot \mathbf{v} = 0$ for the same reason as above, and the axis $(Oz)$ constitutes a set of singular points. Indeed, just as the charged wire acts as the source of the electrostatic field, the axis $(Oz)$ is the origin of the flow under consideration: it must be regarded as either emitting or absorbing fluid.
+
+The quantity $\Phi/h$, namely the flux per unit length, represents the volumetric flow rate of the fluid per unit length of the source axis (the amount of fluid crossing a closed surface per unit length per unit time). Denoting this quantity by $\Lambda$, it plays a role analogous to that of the linear charge density $\lambda$ in the electrostatic model. One then has
+\begin{align}
+    \mathbf{v} = \frac{\Lambda}{2\pi r}\,\hat{r}.
+\end{align}
+
+Depending on whether $\Lambda$ is positive or negative, the axis $(Oz)$ is interpreted as a two-dimensional \emph{source} or \emph{sink}. A perforated irrigation pipe with a large number of uniformly distributed small holes provides an intuitive physical picture of the model under study.
+
+It is readily seen that the velocity potential may be defined such that
+\[
+d\phi = \mathbf{v} \cdot d\mathbf{l},
+\]
+which yields
+\begin{align}
+    \phi = \frac{\Lambda}{2\pi}\ln\!\left(\frac{r}{a}\right),
+    \qquad a = \text{const}.
+    \label{eq23}
+\end{align}
+
+
+\subsection{Hydrodynamic dipole}
+Two-dimensional sources and sinks naturally evoke the notion of ``monopoles''.  
+We now examine the configuration obtained by placing a source and a sink close to each other.
+Figure~\ref{c1} shows the resulting streamlines of the flow, while Fig.~\ref{c2} displays the electric field lines of an electric dipole.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Image/luong cuc thuy dong luc.jpg}
+        \caption{}
+        \label{c1}
+    \end{subfigure}
+    \hspace{10pt}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Image/luong cuc dien.jpg}
+        \caption{}
+        \label{c2}
+    \end{subfigure}
+    \caption{}
+\end{figure}
+
+\paragraph{Remarks.}
+\begin{itemize}
+    \item The streamlines may be circular arcs.
+    \item Although the two figures are visually similar, the electric field lines of an electric dipole are not circular.
+\end{itemize}
+
+We now investigate the phenomenon quantitatively by introducing the coordinate system shown below:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Image/screenshot_1766923724.png}
+    \caption{Schematic for the coordinates of a source–sink pair}
+\end{figure}
+\begin{tcolorbox}[colback=blue!10, colframe=blue!50!black, title= ]
+Using the result of Eq.~\eqref{eq23}, the velocity potential at a point $M(r,\theta)$ is given by
+\begin{align}
+    \phi = \frac{\Lambda}{2\pi}\ln\!\left(\frac{r_+}{r_-}\right).
+\end{align}
+
+Expressing this in terms of $r$ and $\theta$, we have
+\begin{itemize}
+    \item $r_+ = \sqrt{r^2 + d^2 - 2rd\cos\theta}$,
+    \item $r_- = \sqrt{r^2 + d^2 + 2rd\cos\theta}$.
+\end{itemize}
+
+Placing the source and the sink close to each other corresponds to the condition $d \ll r$.
+We therefore perform a first-order approximation:
+\begin{itemize}
+    \item $r_+ \approx r\left(1 - \frac{d\cos\theta}{r}\right)$,
+    \item $r_- \approx r\left(1 + \frac{d\cos\theta}{r}\right)$.
+\end{itemize}
+
+This yields
+\begin{align}
+    \phi
+    &= \frac{\Lambda}{2\pi}
+       \ln\!\left(
+       \frac{1-\frac{d\cos\theta}{r}}{1+\frac{d\cos\theta}{r}}
+       \right)
+       \approx
+       \frac{\Lambda}{2\pi}
+       \ln\!\left(1-\frac{d\cos\theta}{r}\right)^2, \\
+    \implies
+    \phi
+    &\approx
+    -\frac{\Lambda}{2\pi}\frac{2d\cos\theta}{r}.
+\end{align}
+
+This expression may be rewritten in the familiar form
+\begin{align}
+    \phi = \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{2\pi r},
+\end{align}
+where the dipole strength is defined as $\mathbf{p} = 2d\Lambda\,\hat{\mathbf{z}}$.
+
+From this, the velocity field follows immediately:
+\begin{align}
+    \mathbf{v}
+    = \nabla\phi
+    = \frac{p}{2\pi r^2}
+      \left(
+      \cos\theta\,\hat{\mathbf{r}}
+      + \sin\theta\,\hat{\boldsymbol{\theta}}
+      \right).
+\end{align}
+\end{tcolorbox}
+
+Such a closely spaced source–sink pair is called a \emph{hydrodynamic dipole}.
+
+
+\subsection{Flow around a cylindrical obstacle}
+In this section, we rederive the result~\eqref{eq24} using the principle of velocity superposition.
+
+We first recall the boundary conditions~\ref{eq3} presented in Section~\ref{I}. \newline
+The first condition states that far from the obstacle, the flow must be uniform. This suggests interpreting the total velocity field as the superposition of a uniform flow and an auxiliary field $\mathbf{v}'$, which must vanish as $r \to \infty$ for all values of the polar angle $\theta$. \newline
+At the same time, the second boundary condition implies that
+\[
+v_r(R,\theta) = v_0 \cos\theta + v'_r(R,\theta) = 0.
+\]
+Hence,
+\[
+v'_r(R,\theta) = -v_0 \cos\theta.
+\]
+
+A velocity field satisfying this condition was encountered previously, namely the field of a hydrodynamic dipole:
+\begin{align}
+    v_r = \frac{p}{2\pi r^2}\cos\theta.
+\end{align}
+
+Applying the boundary condition at the surface of the cylinder $r = R$, we obtain
+\begin{align}
+    \frac{p}{2\pi R^2}\cos\theta = -v_0 \cos\theta,
+\end{align}
+which immediately yields
+\begin{align}
+    p = -2\pi R^2 v_0.
+\end{align}
+
+The total velocity field in polar coordinates, written as the superposition
+\[
+\mathbf{v} = \mathbf{v}_0 + \mathbf{v}',
+\]
+is therefore given by
+\begin{align}
+    \mathbf{v}
+    = v_0\left(1-\frac{R^2}{r^2}\right)\cos\theta~\hat{\mathbf{r}}
+    - v_0\left(1+\frac{R^2}{r^2}\right)\sin\theta~\hat{\boldsymbol{\theta}}.
+\end{align}
+
+Thus, equation~\eqref{eq24} is recovered.
+
